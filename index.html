@@ -19,6 +19,8 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
     
+	<link rel="shortcut icon" href="images/logo.ico">
+
 </head>
 <body data-spy="scroll" data-target="#mynav" data-offset="85"> 
     <!-- Preloader --> 
@@ -62,27 +64,27 @@
 <section id="home">
     <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
-			<div class="item active" style="background-image: url(images/slider/bg-1.jpg)"> <!-- Change Image -->
+			<div class="item active" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/slider/bg-1.jpg)"> <!-- Change Image -->
 				<div class="caption">
-					<a download="Hoja de vida" data-scroll class="learn-more animated fadeInUpBig" href="files/Hoja_de_vida_Mario_Rolon.pdf">Descargar CV</a>
+					<a download="Hoja_de_vida_Mario_Rolon" data-scroll class="learn-more animated fadeInUpBig" target="_blank" href="files/Hoja_de_vida_Mario_Rolon.pdf">Descargar CV</a>
 					<h1 class="animated fadeInLeftBig"><strong>YO SOY MARIO ROLÓN</strong></h1>
 					<p class="animated fadeInRightBig">Desarrollador Web en proceso</p>
 					<a data-scroll class="learn-more animated fadeInUpBig" href="#about">Comenzar ahora</a>
 				</div>
 			</div>
-			<div class="item" style="background-image: url(images/slider/bg-2.jpg)"> <!-- Change Image -->
+			<div class="item" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/slider/bg-2.jpg)"> <!-- Change Image -->
 				<div class="caption">
-					<a download="Hoja de vida" data-scroll class="learn-more animated fadeInUpBig" href="files/Hoja_de_vida_Mario_Rolon.pdf">Descargar CV</a>
-					<h1 class="animated fadeInLeftBig"><strong>Lorem </strong> Ipsum</h1>
-					<p class="animated fadeInRightBig">Lorem Ipsum</p>
+					<a download="Hoja_de_vida_Mario_Rolon" data-scroll class="learn-more animated fadeInUpBig" target="_blank" href="files/Hoja_de_vida_Mario_Rolon.pdf">Descargar CV</a>
+					<h1 class="animated fadeInLeftBig"><strong>Apasionado por la tecnología</strong></h1>
+					<p class="animated fadeInRightBig">Listo para probar nuevas experiencias</p>
 					<a data-scroll class="learn-more animated fadeInUpBig" href="#about">Comenzar ahora</a>
 				</div>
 			</div>
-			<div class="item" style="background-image: url(images/slider/bg-3.jpg)"> <!-- Change Image -->
+			<div class="item" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/slider/bg-3.jpg)"> <!-- Change Image -->
 				<div class="caption">
-					<a download="Hoja de vida" data-scroll class="learn-more animated fadeInUpBig" href="files/Hoja_de_vida_Mario_Rolon.pdf">Descargar CV</a>
-					<h1 class="animated fadeInLeftBig">Lorem <strong>Ipsum</strong></h1>
-					<p class="animated fadeInRightBig">Lorem Ipsum</p>
+					<a download="Hoja_de_vida_Mario_Rolon" data-scroll class="learn-more animated fadeInUpBig" target="_blank" href="files/Hoja_de_vida_Mario_Rolon.pdf">Descargar CV</a>
+					<h1 class="animated fadeInLeftBig"><strong>Aficionado al dibujo</strong></h1>
+					<p class="animated fadeInRightBig">Me gusta dibujar en mis ratos libres</p>
 					<a data-scroll class="learn-more animated fadeInUpBig" href="#about">Comenzar ahora</a>
 				</div>
 			</div>
@@ -104,6 +106,9 @@
 					<!-- Block Title -->
 					<div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="300ms">			
 						<h1><span>ACERCA DE MÍ</span></h1>							
+					</div>
+					<div class="testimonial-inner" style="padding: 30px;">
+						<img class="img-circle" src="images/photo.png" alt="" title="" style="margin-bottom: 0;" />
 					</div>
 					<div class="element-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">			
 						<h3>Soy una persona tranquila y 
@@ -275,12 +280,92 @@
 			<div class="row">	 		
 				<div class="container">
 					<div class="section-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">			
-						<h1><span>Mi trabajo</span></h1>							
+						<h1><span>Trabajos</span></h1>							
 					</div>				
 				</div>
 			</div>
 		</div>
 		<!-- End Block Title -->
+		<div class="row">
+			<div class="container-fluid">	 		
+				<div class="wrapper-works">
+					<div class="portfoliO">
+						<ul id="filters" class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="300ms">
+						  <li><span class="filter active" data-filter="all">TODOS</span></li>
+						  <li><span class="filter" data-filter=".category-1">IMÁGENES</span></li>
+						  <li><span class="filter" data-filter=".category-3">PROYECTOS</span></li>
+						</ul>
+						<div class="portfolio-wrap">
+							<div class="myport wow fadeInDown" data-wow-duration="1s" data-wow-delay="600ms">
+								<div class="mix category-3 portfolio" data-myorder="3">
+									<div class="img-holder">
+										<a class="folio-read-more" href="#">
+											<img class="" src="images/works/work1.png" alt=""> <!-- Change Image -->
+											<div class="works-overlay">
+												<div class="img-overlay"></div>
+											</div>		
+											<div class="overlay-content"> 
+												<div class="works-overlay-category">PROYECTO</div>		
+												<div class="works-overlay-text">Compilador sencillo</div>																		
+												<div class="works-overlay-icon"><i class="fa fa-graduation-cap"></i></div>										
+											</div>	
+										</a>
+									</div>		  
+								</div>
+								<div class="mix category-1 portfolio" data-cat="category-1" data-myorder="3">
+									<div class="img-holder">
+										<a class="folio-read-more" href="#">
+											<img class="" src="images/works/img1.jpg" alt=""> <!-- Change Image -->
+											<div class="works-overlay">
+												<div class="img-overlay"></div>
+											</div>		
+											<div class="overlay-content"> 
+												<div class="works-overlay-category">IMAGEN</div>	
+												<div class="works-overlay-text">Dibujo</div>																			
+												<div class="works-overlay-icon"><i class="fa fa-image"></i></div>										
+											</div>	
+										</a>
+									</div>		  
+								</div>
+
+								<div class="mix category-3 portfolio" data-cat="category-3" data-myorder="4">
+									<div class="img-holder">
+										<a class="folio-read-more" href="#">
+											<img class="" src="images/works/work2.png" alt=""> <!-- Change Image -->
+											<div class="works-overlay">
+												<div class="img-overlay"></div>
+											</div>		
+											<div class="overlay-content"> 
+												<div class="works-overlay-category">PROYECTO</div>
+												<div class="works-overlay-text">Inventario de libros</div>																				
+												<div class="works-overlay-icon"><i class="fa fa-graduation-cap"></i></div>										
+											</div>
+										</a>
+									</div>	  
+								</div>
+								<div class="mix category-3 portfolio" data-cat="category-3" data-myorder="6">
+									<div class="img-holder">
+										<a class="folio-read-more" href="#">
+											<img class="" src="images/works/work3.png" alt=""> <!-- Change Image -->
+											<div class="works-overlay">
+												<div class="img-overlay"></div>
+											</div>		
+											<div class="overlay-content"> 
+												<div class="works-overlay-category">PROYECTO</div>	
+												<div class="works-overlay-text">Control de gastos</div>																		
+												<div class="works-overlay-icon"><i class="fa fa-graduation-cap"></i></div>										
+											</div>	
+										</a>
+									</div>			  
+								</div>
+								<div class="gap"></div>
+								<div class="gap"></div>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
 		<!-- Single Project -->
 		<div id="works-single-wrap">
 			<div id="works-single">
@@ -297,7 +382,7 @@
 					<div class="section-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">			
 						<h1><span>EXTRAS</span></h1>								
 					</div>					
-						<h3 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay="300ms">También dibujo. Realizo retratos hechos a lápiz.</h3>
+						<h3 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay="300ms">También realizo dibujos hechos a lápiz.</h3>
 					</div>
 				</div>
 			</div>
@@ -431,7 +516,7 @@
 	</div>
 </div>
 <!-- End Footer -->		
-
+<a href="https://api.whatsapp.com/send?phone=573225177759" target="_blank" class="btn-flotante"><i class="fa fa-whatsapp"></i></a>
 <!-- Scroll to Top  -->
 <a href="#" class="scroll-up"><i class="fa fa-arrow-up"></i></a>
 <!-- End Scroll To Top  -->
@@ -442,9 +527,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.min.js"></script>
 	<script src="js/wow.min.js"></script>	
 	<script src="js/waypoints.min.js"></script>	
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
 	<script src="js/jquery.prettyPhoto.js"></script>	
 	<script src="js/jquery.knob.min.js"></script>	
 	<script src="js/custom.js"></script>

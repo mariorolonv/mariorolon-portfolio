@@ -519,7 +519,6 @@ cite {
 
 .element-title h3 {
 	font-size: 20px;
-	text-transform: capitalize;
 }
 
 .typography-title h3 {
@@ -566,7 +565,6 @@ cite {
 	display: inline-block;
 	font-size: 80px;
 	line-height: 200px;
-	cursor: pointer;
 	margin: 20px;
 	width: 200px;
 	height: 200px;
@@ -839,7 +837,7 @@ cite {
 .skills{
 	/*background: none no-repeat scroll 0 0 #4d4d4d;*/
 	/*padding: 40px 2% 80px;*/
-	background-image: url("../images/skills-bg.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/skills-bg.jpg");
 }
 
 .wrapper-count {
@@ -962,7 +960,7 @@ li:last-child {
 }
 
 .img-holder img{
-    height: auto;
+    height: 200px;
     width: 100%;
 }
 
